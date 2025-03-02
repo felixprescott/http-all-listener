@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+.vscode/
+.idea/
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+package-lock.json
+yarn.lock
+*.tsbuildinfo

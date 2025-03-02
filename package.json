@@ -1,0 +1,16 @@
+{
+  "name": "http-all-listener",
+  "version": "0.0.1",
+  "description": "Simple HTTP-Server that logs requests body to console.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Prescott",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "ts-node-dev": "^2.0.0"
+  }
+}
